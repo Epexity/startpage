@@ -4,9 +4,9 @@
 :root,
     :root.guts {
     --background-color: #060505ff;
-    --header-color: #A60E10ff;
+    --header-color: #898385ff;
     --status-color: #F0F0F0ff;
-    --title-color: #A60E10ff;
+    --title-color: #898385ff;
     --link-color: #F0F0F0ff;
     --hover-color: #1C1C1Cff;
     --image: url("../img/Download.jpg")
