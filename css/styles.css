@@ -4,9 +4,9 @@
 :root,
     :root.guts {
     --background-color: #060505ff;
-    --header-color: #e4e0dfff;
+    --header-color: #fff0dbff;
     --status-color: #F0F0F0ff;
-    --title-color: #e4e0dfff;
+    --title-color: #fff0dbff;
     --link-color: #F0F0F0ff;
     --hover-color: #1C1C1Cff;
     --image: url("../img/new.jpg")
