@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>~</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" 
+          rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <script src="scripts/main.js"></script>
+    <script src="scripts/transitions.js"></script>
+  </head>
+
+  <body>
+    <svg id="fader"></svg>
+    <script>fade();</script>
+
+    <main>
+      <div class="container">
+        <img src="assets/img/arkestar.png" alt="Main decorative image" id="mainImg">
+
+        <div class="rightNav">
+          <h1>Welcome</h1>
+          <div id="date"></div>
+          
+          <div class="search">
+            <form action="https://tanomu.momiko.moe" method="get" autocomplete="off">
+              <label for="q">></label>
+              <input autofocus id="q" name="q" placeholder="searx the web..." type="search">
+            </form>
+          </div>
+
+          <nav>
+            <div class="category">
+              <h2>Frequent</h2>
+              <ul>
+                <li><a href="https://anilist.co/">Anilist</a></li>
+                <li><a href="https://myanimelist.net/">MyAnimeList</a></li>
+                <li><a href="https://gitlab.com/">GitLab</a></li>
+              </ul>
+            </div>
+
+            <div class="category">
+              <h2>Media</h2>
+              <ul>
+                <li><a href="http://192.168.1.147:8096">Jellyfin</a></li>
+                <li><a href="http://192.168.1.147:4533">Navidrome</a></li>
+                <li><a href="http://192.168.1.147:8097">Komga</a></li>
+              </ul>
+            </div>
+
+            <div class="category">
+              <h2>Socials</h2>
+              <ul>
+                <li><a href="https://4chan.org/a/">/a/</a></li>
+                <li><a href="https://4chan.org/g/">/g/</a></li>
+                <li><a href="https://reddit.com">Reddit</a></li>
+              </ul>
+            </div>
+
+            <div class="category">
+              <h2>Arr</h2>
+              <ul>
+                <li><a href="https://nyaa.si">Nyaa</a></li>
+                <li><a href="http://192.168.1.147:8989">Sonarr</a></li>
+                <li><a href="http://192.168.1.147:8112">Deluge</a></li>
+              </ul>
+            </div>
+
+            <div class="category">
+              <h2>Sysadmin</h2>
+              <ul>
+                <li><a href="https://192.168.1.130:8006">Proxmox</a></li>
+                <li><a href="https://192.168.1.145">TrueNAS</a></li>
+                <li><a href="http://192.168.1.1">Router</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <span class="left">
+        <a id="dark-mode-toggle">Switch themes</a> | 
+        <a id="image-cycle">Cycle images</a>
+      </span>
+      
+      <span class="right">
+        <a href="https://gitlab.com/wolfiy/wlfys-minimal-startpage">Source code</a> | 
+        <a href="https://twitter.com/Arkestar">Artworks by Arkestar</a>
+      </span>
+    </footer>
+
+    <script src="scripts/visuals.js"></script>
+  </body>
+</html>
